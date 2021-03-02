@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+body{
+	padding:0px;
+	margin:0;
+	font-family: 'Oswald',sans-serif;
+}
+
+.container
+{
+	height: 40vh; 	
+	width: 100%;
+}
+.header {
+	width: 1300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size:20px;
+	background-color:#dadada;
+	margin:10px;
+	padding:5px;
+	height:75px;
+	border-radius: 4px;
+}
+.subscribe-text{
+	display: inline;
+}
+#first-name {
+	padding:14px;
+}
+#email {
+	padding:14px;	
+}
+
+#first-name input{
+	padding:4px;
+	height: 25px;
+	background-color: white;
+	border-radius: 4px;
+}
+#email input{
+	height: 25px;
+	padding:4px;
+	background-color: white;
+	border-radius: 4px;
+}	
+#search{
+	padding:14px;
+}
+#search button{
+	background-color: black;
+	border-radius: 7px;
+	color:white;
+	height: 30px;
+	font-size: 15px;
+}
+
+.centre-logo {
+	height: 100px;
+	text-align: center;
+}
+
+#nav-mobile {
+	padding:10px;
+}
+
+#mid-section {
+	margin: 7px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width:100%;
+}
+#box-1 {
+	flex: 0.8;
+	box-shadow: 8px 5px white;
+	margin-right:510px;
+}
+#box-1 h5{
+	font-family: 'Oswald',sans-serif;
+	letter-spacing: 4px;
+}
+#box-2 {
+	flex: 0.2;
+	margin-top: 40px;
+	width: 100%;
+	margin-right:5px;
+	box-shadow: -8px -5px white;
+	background-color: white;
+}
+#box-2 h5{
+	font-family: 'Oswald',sans-serif;
+	padding:10px;
+	text-align: center;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+}
+
+#box-1 img {
+	padding:10px;
+	width:500px;
+}
+#box-2 img{
+	width:180px;
+	height:240px;
+}
